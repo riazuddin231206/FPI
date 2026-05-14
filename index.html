@@ -1,0 +1,214 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <title>Tailwind_CSS</title>
+</head>
+
+<body class="">
+  <header
+    class="flex gap-10 justify-around max-sm:justify-between max-md:justify-between p-5 items-center w-10/12 mx-auto">
+    <h1 class="text-2xl font-bold">FPI</h1>
+    <ul class="gap-3 hidden md:flex">
+      <li class="text-blue-400">Home</li>
+      <li>About</li>
+      <li>Departments</li>
+      <li>Teachers</li>
+      <li>Admission</li>
+      <li>Notices</li>
+      <li>Gallery</li>
+      <li>Contact</li>
+    </ul>
+    <button class="px-4 py-1 bg-blue-200 rounded-lg ">Login</button>
+  </header>
+
+  <main>
+    <!-- hero section start -->
+    <section>
+      <div class="bg-[#EFF6FF] p-10 gap-10">
+        <h1 class="text-7xl font-bold text-center max-sm:text-4xl max-md:5xl">
+          Feni Polytechnic Institute
+        </h1>
+        <p class="text-center text-gray-600 m-5">Empowering Future Engineers Since 1963. We provide world-class <br>
+          technical education to build the leaders of tomorrow.
+        </p>
+        <div class="text-center m-5">
+          <button class="px-8 py-4 rounded-xl bg-black text-white mr-2">Apply Now</button>
+          <button class=" px-8 py-4 rounded-xl bg-white">Learn More</button>
+        </div>
+      </div>
+    </section>
+    <!-- hero section end -->
+    <!-- Excellence in Technical Education start -->
+    <section class="grid grid-cols-2 max-sm:grid-cols-1 justify-center gap-10 w-10/12 m-auto py-9">
+      <div>
+        <h1 class="text-3xl font-bold ">
+          Excellence in Technical Education
+        </h1>
+        <p class=" py-5">
+          Feni Polytechnic Institute is one of the oldest and most prestigious <br>
+          polytechnic institutes in Bangladesh. Located in the heart of Feni, we <br>
+          have been shaping the future of engineering education for over six <br>
+          decades.
+        </p>
+        <p class=" py-5">
+          Our campus features state-of-the-art laboratories, a rich library, modern <br>
+          classrooms, and a vibrant community of students and faculty dedicated <br>
+          to innovation and excellence.
+        </p>
+        <button class=" flex gap-3 items-center">Read Our History <i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+      <div>
+        <img class="w-120 h-90 mx-auto ml-30 max-sm:ml-0 max-md:ml-0" src="image.jpg" alt="">
+      </div>
+    </section>
+
+
+    <!-- Excellence in Technical Education end -->
+    <!-- our departments start -->
+    <section class="py-8 bg-[#F9FAFB] ">
+      <div>
+        <h1 class="text-3xl text-center font-bold">
+          Our Departments
+        </h1>
+        <p class="text-center">
+          We offer diploma engineering courses in five major technologies, each equipped <br>
+          with modern facilities and expert faculty.
+        </p>
+      </div>
+      <div
+        class="w-10/12 mx-auto py-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5  gap-5 ">
+        <div class="bg-white p-3 rounded-xl">
+          <i class="fa-solid fa-laptop text-3xl bg-[#EFF6FF] p-3 text-blue-600 rounded-xl"></i>
+          <h1 class="text-3xl font-bold"> Computer</h1>
+          <p>
+            Software, networking, and
+            modern computing
+            systems.
+          </p>
+          <button class="text-[#2563EB] pl-1">
+            Learn More
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+        <div class="bg-white p-3 rounded-xl">
+          <i class="fa-solid fa-building text-3xl bg-[#EFF6FF] p-3 text-blue-600 rounded-xl"></i>
+          <h1 class="text-3xl font-bold">Civil</h1>
+          <p>Structural design,
+            constrution, and
+            surveying.
+          </p>
+          <button class="text-[#2563EB]">
+            Learn More
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+        <div class="bg-white p-3 rounded-xl">
+          <i class="fa-solid fa-bolt text-3xl bg-[#EFF6FF] p-3 text-blue-600 rounded-xl"></i>
+          <h1 class="text-3xl font-bold"> Electrical</h1>
+          <p>
+            Power systems, circuits and
+            renewable enerfy.
+          </p>
+          <button class="text-[#2563EB]">
+            Learn More
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+        <div class="bg-white p-3 rounded-xl">
+          <i class="fa-solid fa-gear text-3xl bg-[#EFF6FF] p-3 text-blue-600 rounded-xl"></i>
+          <h1 class="text-3xl font-bold"> Mechanical</h1>
+          <p>
+            Manufacturing
+            thermodynamics, and
+            machine design.
+          </p>
+          <button class="text-[#2563EB]">
+            Learn More
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+        <div class="bg-white p-3 rounded-xl">
+          <i class="fa-solid fa-microchip text-3xl bg-[#EFF6FF] p-3 text-blue-600 rounded-xl"></i>
+          <h1 class="text-3xl font-bold"> Electronics</h1>
+          <p>
+            Digital systems,
+            microprocessors, and
+            communication.
+          </p>
+          <button class="text-[#2563EB]">
+            Learn More
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- our departments end -->
+
+  </main>
+  <footer class="grid grid-cols-4 w-10/12 mx-auto gap-10">
+    <div>
+      <h1>Feni Polytechnic Institute </h1>
+      <p>Empowering future engineers since 1963.
+        We are committed to providing quality
+        technical education and fostering
+        innovation.
+      </p>
+      <div>
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin-in"></i>
+        <i class="fa-brands fa-instagram"></i>
+      </div>
+    </div>
+    <div>
+      <h1>Quick Links</h1>
+      <ul>
+        <li>About Us</li>
+        <li>Departments</li>
+        <li>Admission</li>
+        <li>Notices & Events</li>
+        <li>Photo Gallery</li>
+      </ul>
+    </div>
+    <div>
+      <h1>Departments</h1>
+      <ul>
+        <li>Computer Technology</li>
+        <li>Civil Technology</li>
+        <li>Electrical Technology</li>
+        <li>Mechanical Technology</li>
+        <li>Electronics Technology</li>
+      </ul>
+    </div>
+    <div>
+      <h1>Contact Us</h1>
+      <div class="flex gap-2">
+        <i class="fa-solid fa-location-dot text-blue-600"></i>
+        <p>
+          Trunk Road, Feni Sadar,
+          Feni-3900, Bangladesh
+        </p>
+      </div>
+      <div class="flex gap-2">
+        <i class="fa-solid fa-phone text-blue-600"></i>
+        <p>
+          +880-331-63360
+        </p>
+      </div>
+      <div class="flex gap-2">
+        <i class="fa-regular fa-envelope text-blue-600"></i>
+        <p>
+          info@feni-poly.edu.bd
+        </p>
+      </div>
+    </div>
+  </footer>
+  <script src="https://kit.fontawesome.com/1f87d08519.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
